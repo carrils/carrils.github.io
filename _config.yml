@@ -29,7 +29,7 @@ author:
   bio              : "Short biography for the left-hand sidebar"
   location         : "Kansas City, Missouri"
   employer         : "Seeking Employment"
-  uri              : "google.com" # URL
+  uri              : # URL
   email            : "scarrillo578@gmail.com"
 
   # Academic websites
