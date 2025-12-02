@@ -52,8 +52,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "scarrillo"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   artstation       : # Username
@@ -83,17 +83,17 @@ author:
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
-#publication_category:
-#  books:
-#    title: 'Books'
-#  manuscripts:
-#    title: 'Journal Articles'
-#  conferences:
-#    title: 'Conference Papers'
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
@@ -333,12 +333,12 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
-#category_archive:
-#  type: liquid
-#  path: /categories/
-#tag_archive:
-#  type: liquid
-#  path: /tags/
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
