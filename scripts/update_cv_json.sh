@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # Script to update the CV JSON file from the markdown CV
 # Author: Yuan Chen

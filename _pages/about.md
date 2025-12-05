@@ -3,7 +3,7 @@ permalink: /
 title: "Hello everybody and welcome to my portfolio website"
 author_profile: true
 redirect_from: 
-  - /about/
+  - /about-me/
   - /about.html
 ---
 I'm you're host Sam Carrillo and this evening we have a wonderful selection of impressive and entrepeneurial array of skills sure to be of use to any institution of industry! 
