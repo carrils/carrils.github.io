@@ -23,9 +23,9 @@ repository               : "carrils/carrils.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "professional-cropped.jpg"
   name             : "Sam Carrillo"
-  pronouns         : "He/Him"# example: "she/her"
+  pronouns         : # "He/Him"  # I use he/him but for stylistic purposes I will omit this here.
   bio              : "Short biography for the left-hand sidebar"
   location         : "Kansas City, Missouri"
   employer         : "Seeking Employment"
