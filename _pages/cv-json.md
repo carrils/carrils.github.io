@@ -1,8 +1,8 @@
 ---
 layout: archive
-title: "CV"
+#title: "Curriculum vitae"
 permalink: /cv-json/
-author_profile: false
+author_profile: true
 redirect_from:
   - /resume-json
 ---

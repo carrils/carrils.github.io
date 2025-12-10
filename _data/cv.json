@@ -1,40 +1,122 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Sam Carrillo",
+    "email": "scarrillo578@gmail.com",
+    "phone": "(816) 721-4245",
+    "website": "https://carrils.github.io/",
+    "summary": "Software Engineering professional with 4+ years of progressive experience supporting federal research and development projects for various Sponsor Agencies with The MITRE Corporation. Prior to MITRE, I developed and supported EHR systems with Oracle. Driven by a natural curiosity for programmatic problem-solving, I am seeking to contribute to impactful projects and initiatives. Kansas City-based developer proficient in health data interoperability, steering complex technical conversations with stakeholders, and posessing clear communication skills.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Kansas City, Missouri"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "carrils",
+        "url": "https://github.com/carrils"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "sam-carrillo",
+        "url": "https://www.linkedin.com/in/sam-carrillo"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "The MITRE Corporation",
+      "position": "Individual Contributor (technical)",
+      "website": "",
+      "startDate": "Nov. 2024",
+      "endDate": "Apr. 2025",
+      "summary": "Developed Test Kits & internal team tooling; Carin for blue button, Bulk data, US CDI. ",
+      "highlights": [
+        "highlight 1",
+        "highlight 2"
+      ],
+      "agency": "ASTP",
+      "project": "Inferno"
+    },
+    {
+      "company": "The MITRE Corporation",
+      "position": "Individual Contributor (technical)",
+      "website": "",
+      "startDate": "Jun. 2021",
+      "endDate": "Aug. 2024",
+      "summary": "Full stack developer and repository maintainer, supported the implementation of the Artifact repository and website.",
+      "highlights": [
+        "highlight 1",
+        "highlight 2"
+      ],
+      "agency": "AHRQ",
+      "project": "CDS Connect"
+    },
+    {
+      "company": "The MITRE Corporation",
+      "position": "Individual Contributor (technical)",
+      "website": "",
+      "startDate": "Aug. 2022",
+      "endDate": "Apr. 2024",
+      "summary": "Developed core functionality on Hospital Price Transparency MRF validator. Maintained CMS github user site.",
+      "highlights": [
+        "highlight 1",
+        "highlight 2"
+      ],
+      "agency": "CMS",
+      "project": "Hospital Price Transparency"
+    },
+    {
+      "company": "The MITRE Corporation",
+      "position": "Individual Contributor (technical)",
+      "website": "",
+      "startDate": "Jab. 2022",
+      "endDate": "Feb. 2024",
+      "summary": "Informed Sponsor inquiry, compared Hospital and Insurer MRFs regarding rule with data analysis tools.",
+      "highlights": [
+        "highlight 1",
+        "highlight 2"
+      ],
+      "agency": "CMS",
+      "project": "Transparency in Coverage"
+    },
+    {
+      "company": "The MITRE Corporation",
+      "position": "Individual Contributor (technical)",
+      "website": "",
+      "startDate": "May 2022",
+      "endDate": "May 2023",
+      "summary": "Developed FHIR clients/servers and designed testing methods to implement health data messaging between STLT Health Departments and CDC.",
+      "highlights": [
+        "highlight 1",
+        "highlight 2"
+      ],
+      "agency": "CDC",
+      "project": "Public Health FHIR Implementation Collaborative"
+    },
+    {
+      "company": "Oracle Health",
+      "position": "Systems Engineer II",
+      "website": "",
+      "startDate": "Oct. 2018",
+      "endDate": "Feb. 2021",
+      "summary": "Developed and supported clinical applications and the transmission of health data for bedside medical devices.",
+      "highlights": [
+        "fill with stuff from the_way",
+        "fill with stuff from the_way"
+      ],
+      "agency": "CDC",
+      "project": "Public Health FHIR Implementation Collaborative"
+    }
+  ],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Missouri Western State University",
+      "area": "B.S. in Computer Science",
       "studyType": "",
       "startDate": "",
       "endDate": "2018",
@@ -42,104 +124,16 @@
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Red",
+      "area": "Apple",
       "studyType": "",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "2023",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
-  "publications": [
-    {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "publications": [],
   "portfolio": [
     {
       "name": "Portfolio item number 1",
