@@ -3,6 +3,8 @@
 # Script to update the CV JSON file from the markdown CV
 # Author: Yuan Chen
 
+echo "$(clear)"
+
 # Set the base directory to the repository root
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
@@ -24,24 +26,33 @@ if [ ! -f "$CV_MARKDOWN" ]; then
   exit 1
 fi
 
+#echo "base_dir: $BASE_DIR"
+#echo "cv_json: $CV_JSON"
+#echo "config: $CONFIG_FILE"
+#echo "cv_markdown: $CV_MARKDOWN"
+#echo "\n"
+#echo "python_script: $PYTHON_SCRIPT"
+#echo "python version: $(python3 --version)"
+#echo "pip list: $(python3 -m pip list)"
+
 # Run the Python script to convert markdown to JSON
 echo "Converting markdown CV to JSON..."
 python3 "$PYTHON_SCRIPT" --input "$CV_MARKDOWN" --output "$CV_JSON" --config "$CONFIG_FILE"
 
 # Check if the conversion was successful
-if [ $? -eq 0 ]; then
-  echo "Successfully updated CV JSON file at $CV_JSON"
-  
-  # Optional: Build the Jekyll site to see the changes
-  echo "Would you like to build the Jekyll site to see the changes? (y/n)"
-  read -r answer
-  if [[ "$answer" =~ ^[Yy]$ ]]; then
-    echo "Building Jekyll site..."
-    cd "$BASE_DIR" && bundle exec jekyll serve
-  fi
-else
-  echo "Error: Failed to update CV JSON file"
-  exit 1
-fi
+#if [ $? -eq 0 ]; then
+#  echo "Successfully updated CV JSON file at $CV_JSON"
+
+#  # Optional: Build the Jekyll site to see the changes
+#  echo "Would you like to build the Jekyll site to see the changes? (y/n)"
+#  read -r answer
+#  if [[ "$answer" =~ ^[Yy]$ ]]; then
+#    echo "Building Jekyll site..."
+#    cd "$BASE_DIR" && bundle exec jekyll serve
+#  fi
+#else
+#  echo "Error: Failed to update CV JSON file"
+#  exit 1
+#fi
 
 exit 0
