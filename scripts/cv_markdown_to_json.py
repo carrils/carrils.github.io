@@ -45,15 +45,15 @@ def create_cv_json(md_file, config_file, repo_root, output_file):
     # Create the JSON structure
     cv_json = {
         "basics": author_info,
-        "work": parse_work_experience('../_data/work_exp.json'),
-        "skills": parse_skills(sections.get('Skills', '')),
+        "work": parse_work_experience('_data/work_exp.json'),
+        "skills": parse_skills('_data/skills.json'),
         "languages": [],
         "interests": [],
         "references": [],
         "education": parse_education(sections.get('Education', ''))
     }
 
-    # print(parse_work_experience(sections.get('Work experience', '')))
+    # print(parse_skills())
 
     # Add publications
     cv_json["publications"] = parse_publications(os.path.join(repo_root, "_publications"))
@@ -273,21 +273,22 @@ def parse_work_experience(work_file):
     return work_entries
 
 
-def parse_skills(skills_text):
+def parse_skills(skills_file):
     """Parse skills section from markdown."""
-    skills_entries = []
 
     # Extract skill categories
-    categories = re.findall(r'(?:^|\n)(\w+.*?):\s*(.*?)(?=\n\w+.*?:|\Z)', skills_text, re.DOTALL)
+    # categories = re.findall(r'(?:^|\n)(\w+.*?):\s*(.*?)(?=\n\w+.*?:|\Z)', skills_text, re.DOTALL)
     # print(categories)
-    for category, skills in categories:
+    # for category, skills in categories:
         # Extract individual skills
-        skill_list = [s.strip() for s in re.split(r',|\n', skills) if s.strip()]
-
+        # skill_list = [s.strip() for s in re.split(r',|\n', skills) if s.strip()]
+    skills_df = pd.read_json(skills_file)
+    skills_entries = []
+    for skill in skills_df.itertuples():
         skills_entries.append({
-            "name": category.strip(),
-            "level": "",
-            "keywords": skill_list
+            "name": skill.name,
+            "level": skill.level,
+            "keywords": skill.keyword
         })
 
     return skills_entries

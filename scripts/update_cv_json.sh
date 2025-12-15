@@ -6,15 +6,15 @@
 echo "$(clear)"
 
 # Set the base directory to the repository root
-BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+#BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 # Define file paths
-CV_MARKDOWN="$BASE_DIR/_pages/cv.md"
-CV_JSON="$BASE_DIR/_data/cv.json"
-CONFIG_FILE="$BASE_DIR/_config.yml"
+CV_MARKDOWN="_pages/cv.md"
+CV_JSON="_data/cv.json"
+CONFIG_FILE="_config.yml"
 
 # Check if the Python script exists
-PYTHON_SCRIPT="$BASE_DIR/scripts/cv_markdown_to_json.py"
+PYTHON_SCRIPT="scripts/cv_markdown_to_json.py"
 if [ ! -f "$PYTHON_SCRIPT" ]; then
   echo "Error: Python script not found at $PYTHON_SCRIPT"
   exit 1
@@ -26,7 +26,7 @@ if [ ! -f "$CV_MARKDOWN" ]; then
   exit 1
 fi
 
-#echo "base_dir: $BASE_DIR"
+#echo "base_dir: "
 #echo "cv_json: $CV_JSON"
 #echo "config: $CONFIG_FILE"
 #echo "cv_markdown: $CV_MARKDOWN"
@@ -48,7 +48,7 @@ python3 "$PYTHON_SCRIPT" --input "$CV_MARKDOWN" --output "$CV_JSON" --config "$C
 #  read -r answer
 #  if [[ "$answer" =~ ^[Yy]$ ]]; then
 #    echo "Building Jekyll site..."
-#    cd "$BASE_DIR" && bundle exec jekyll serve
+#    cd "" && bundle exec jekyll serve
 #  fi
 #else
 #  echo "Error: Failed to update CV JSON file"
