@@ -9,7 +9,6 @@ echo "$(clear)"
 #BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 # Define file paths
-CV_MARKDOWN="_pages/cv.md"
 CV_JSON="_data/cv.json"
 CONFIG_FILE="_config.yml"
 
@@ -21,10 +20,10 @@ if [ ! -f "$PYTHON_SCRIPT" ]; then
 fi
 
 # Check if the markdown CV exists
-if [ ! -f "$CV_MARKDOWN" ]; then
-  echo "Error: Markdown CV not found at $CV_MARKDOWN"
-  exit 1
-fi
+#if [ ! -f "$CV_MARKDOWN" ]; then
+#  echo "Error: Markdown CV not found at $CV_MARKDOWN"
+#  exit 1
+#fi
 
 #echo "base_dir: "
 #echo "cv_json: $CV_JSON"
@@ -35,9 +34,9 @@ fi
 #echo "python version: $(python3 --version)"
 #echo "pip list: $(python3 -m pip list)"
 
-# Run the Python script to convert markdown to JSON
-echo "Converting markdown CV to JSON..."
-python3 "$PYTHON_SCRIPT" --input "$CV_MARKDOWN" --output "$CV_JSON" --config "$CONFIG_FILE"
+# Run the Python script to generate cv
+echo "Generating CV..."
+python3 "$PYTHON_SCRIPT" --output "$CV_JSON" --config "$CONFIG_FILE"
 
 # Check if the conversion was successful
 #if [ $? -eq 0 ]; then

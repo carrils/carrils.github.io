@@ -4,7 +4,7 @@
     "email": "scarrillo578@gmail.com",
     "phone": "(816) 721-4245",
     "website": "https://carrils.github.io/",
-    "summary": "Software Engineering professional with 4+ years of progressive experience supporting federal research and development projects for various Sponsor Agencies with The MITRE Corporation. Prior to MITRE, I developed and supported EHR systems with Oracle. Driven by a natural curiosity for programmatic problem-solving, I am seeking to contribute to impactful projects and initiatives. Kansas City-based developer proficient in health data interoperability, steering complex technical conversations with stakeholders, and posessing clear communication skills.",
+    "summary": "Goal-oriented software engineering professional with 4+ years of progressive experience supporting federal research and development projects for various Sponsor Agencies with The MITRE Corporation. Prior to MITRE, I developed and supported EHR systems with Oracle. Driven by a natural affinity for programmatic problem-solving, I am seeking to contribute to impactful projects and initiatives. Kansas City-based developer proficient in health data interoperability, steering complex technical conversations with stakeholders, and posessing clear communication skills.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -25,122 +25,153 @@
   },
   "work": [
     {
-      "company": "The MITRE Corporation",
-      "position": "Individual Contributor (technical)",
-      "website": "",
+      "company": "MITRE | ASTP",
+      "position": "Inferno",
       "startDate": "Nov. 2024",
       "endDate": "Apr. 2025",
-      "summary": "Developed Test Kits & internal team tooling; Carin for blue button, Bulk data, US CDI. ",
+      "summary": "Inferno is an open source tool/framework for creating, executing and sharing automated conformance tests for the FHIR Standard. Inferno tests are packaged in executable Test Kits, which target requirements provided by FHIR Implementation Guides. ",
+      "link": "",
       "highlights": [
-        "highlight 1",
-        "highlight 2"
-      ],
-      "agency": "ASTP",
-      "project": "Inferno"
+        "Individual Contributor (technical)",
+        "Developed Test Kits & internal team tooling; Carin for blue button, Bulk data, US CDI."
+      ]
     },
     {
-      "company": "The MITRE Corporation",
-      "position": "Individual Contributor (technical)",
-      "website": "",
-      "startDate": "Jun. 2021",
-      "endDate": "Aug. 2024",
-      "summary": "Full stack developer and repository maintainer, supported the implementation of the Artifact repository and website.",
-      "highlights": [
-        "highlight 1",
-        "highlight 2"
-      ],
-      "agency": "AHRQ",
-      "project": "CDS Connect"
-    },
-    {
-      "company": "The MITRE Corporation",
-      "position": "Individual Contributor (technical)",
-      "website": "",
+      "company": "MITRE | CMS",
+      "position": "Hospital Price Transparency",
       "startDate": "Aug. 2022",
       "endDate": "Apr. 2024",
-      "summary": "Developed core functionality on Hospital Price Transparency MRF validator. Maintained CMS github user site.",
+      "summary": "This project supported CMS in implementing their rule. Maintained documentation on an open-source CMSgov github repository, broad tasking including data collection and visualization. Aided in the development of the MRF validator for the rule.",
+      "link": "",
       "highlights": [
-        "highlight 1",
-        "highlight 2"
-      ],
-      "agency": "CMS",
-      "project": "Hospital Price Transparency"
+        "Individual Contributor (technical)",
+        "Developed core functionality on Hospital Price Transparency MRF validator. Maintained CMS github user site."
+      ]
     },
     {
-      "company": "The MITRE Corporation",
-      "position": "Individual Contributor (technical)",
-      "website": "",
-      "startDate": "Jab. 2022",
-      "endDate": "Feb. 2024",
-      "summary": "Informed Sponsor inquiry, compared Hospital and Insurer MRFs regarding rule with data analysis tools.",
-      "highlights": [
-        "highlight 1",
-        "highlight 2"
-      ],
-      "agency": "CMS",
-      "project": "Transparency in Coverage"
-    },
-    {
-      "company": "The MITRE Corporation",
-      "position": "Individual Contributor (technical)",
-      "website": "",
+      "company": "MITRE | CDC",
+      "position": "Public Health FHIR Implementation Collaborative (PHFIC)",
       "startDate": "May 2022",
       "endDate": "May 2023",
-      "summary": "Developed FHIR clients/servers and designed testing methods to implement health data messaging between STLT Health Departments and CDC.",
+      "summary": "Developed an Inferno test suite for STLT stakeholders to use in setting up interoperable communication in the form of HL7 FHIR messaging. Aided in developing an IG. Stood up FHIR server and created FHIR client and server in HAPI FHIR.",
+      "link": "",
       "highlights": [
-        "highlight 1",
-        "highlight 2"
-      ],
-      "agency": "CDC",
-      "project": "Public Health FHIR Implementation Collaborative"
+        "Individual Contributor (technical)",
+        "Developed FHIR clients/servers and designed testing methods to implement health data messaging between STLT Health Departments and CDC."
+      ]
+    },
+    {
+      "company": "MITRE | CMS",
+      "position": "Transparency in Coverage",
+      "startDate": "Jan. 2022",
+      "endDate": "Feb. 2024",
+      "summary": "This CMS project is to support another similar rule for CMS but for insurance instead of hospitals. Aided in development of the file validator, data collection & visualization. Assisted in producing data for research questions. Processed JSON files in an environmental scan.\n",
+      "link": "",
+      "highlights": [
+        "Individual Contributor (technical)",
+        "Informed Sponsor inquiry, compared Hospital and Insurer MRFs regarding rule with data analysis tools."
+      ]
+    },
+    {
+      "company": "MITRE | AHRQ",
+      "position": "CDS Connect",
+      "startDate": "Jun. 2021",
+      "endDate": "Aug. 2024",
+      "summary": "Clinical Decision Support (CDS) Connect is a public platform for authoring and sharing interoperable CDS resources. These resources are hosted on a publicly accessible repository with other clinical information meant to aid clinical decision making.",
+      "link": "/project/AHRQ-CDS-Connect",
+      "highlights": [
+        "Individual Contributor (technical)",
+        "Full stack developer and repository maintainer, supported the implementation of the Artifact repository and website."
+      ]
     },
     {
       "company": "Oracle Health",
       "position": "Systems Engineer II",
-      "website": "",
       "startDate": "Oct. 2018",
       "endDate": "Feb. 2021",
       "summary": "Developed and supported clinical applications and the transmission of health data for bedside medical devices.",
+      "link": "",
       "highlights": [
         "fill with stuff from the_way",
         "fill with stuff from the_way"
-      ],
-      "agency": "CDC",
-      "project": "Public Health FHIR Implementation Collaborative"
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "skills": [
+    {
+      "name": "",
+      "level": 1,
+      "keywords": [
+        "Python",
+        "Java",
+        "Javascript",
+        "Ruby",
+        "Pandas",
+        "Drupal"
+      ]
+    },
+    {
+      "name": "",
+      "level": 2,
+      "keywords": [
+        "FHIR Server/Client development",
+        "Health Systems Engineering",
+        "EHR/EMR Development",
+        "Software Interoperability",
+        "Agile development",
+        "Project Task Management",
+        "Stakeholder Engagement & Analysis"
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "Missouri Western State University",
-      "area": "B.S. in Computer Science",
+      "area": "BS in Computer Science",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "Red",
-      "area": "Apple",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2023",
-      "gpa": null,
+      "endDate": "May 2018",
       "courses": []
     }
   ],
-  "publications": [],
-  "portfolio": [
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "name": "Project Number 2",
+      "publisher": "Journal 1",
+      "releaseDate": "2010-10-01",
+      "website": "https://academicpages.github.io/files/paper2.pdf",
+      "summary": "This paper is about the number 2. The number 3 is left for future work."
+    },
+    {
+      "name": "Project Number 3",
+      "publisher": "Journal 1",
+      "releaseDate": "2015-10-01",
+      "website": "https://academicpages.github.io/files/paper3.pdf",
+      "summary": "This paper is about the number 3. The number 4 is left for future work."
+    },
+    {
+      "name": "Project Number 4",
+      "publisher": "GitHub Journal of Bugs",
+      "releaseDate": "2024-02-17",
+      "website": "https://academicpages.github.io/files/paper3.pdf",
+      "summary": "This paper is about fixing template issue #693."
+    },
+    {
+      "name": "Project Number 5, with math $$E=mc^2$$",
+      "publisher": "GitHub Journal of Bugs",
+      "releaseDate": "2024-02-17",
+      "website": "https://academicpages.github.io/files/paper3.pdf",
+      "summary": "This paper is about a famous math equation, $$E=mc^2$$"
+    },
+    {
+      "name": "CDS Connect",
+      "publisher": "",
+      "releaseDate": "2025-12-24",
+      "website": "",
+      "summary": "Clinical Decision Support (CDS) Connect is a public platform for authoring and sharing interoperable CDS resources. These resources are hosted on a publicly accessible repository with other clinical information meant to aid clinical decision making."
     }
   ]
 }

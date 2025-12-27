@@ -1,83 +1,71 @@
 [
   {
-    "company": "The MITRE Corporation",
-    "agency": "ASTP",
-    "project": "Inferno",
-    "position": "Individual Contributor (technical)",
-    "website": "",
+    "position": "Inferno",
+    "company": "MITRE | ASTP",
     "startDate": "Nov. 2024",
     "endDate": "Apr. 2025",
-    "summary": "Developed Test Kits & internal team tooling; Carin for blue button, Bulk data, US CDI. ",
+    "summary": "Inferno is an open source tool/framework for creating, executing and sharing automated conformance tests for the FHIR Standard. Inferno tests are packaged in executable Test Kits, which target requirements provided by FHIR Implementation Guides. ",
+    "link": "",
     "highlights": [
-      "highlight 1",
-      "highlight 2"
+      "Individual Contributor (technical)",
+      "Developed Test Kits & internal team tooling; Carin for blue button, Bulk data, US CDI."
     ]
   },
   {
-    "company": "The MITRE Corporation",
-    "agency": "AHRQ",
-    "project": "CDS Connect",
-    "position": "Individual Contributor (technical)",
-    "website": "",
-    "startDate": "Jun. 2021",
-    "endDate": "Aug. 2024",
-    "summary": "Full stack developer and repository maintainer, supported the implementation of the Artifact repository and website.",
-    "highlights": [
-      "highlight 1",
-      "highlight 2"
-    ]
-  },
-  {
-    "company": "The MITRE Corporation",
-    "agency": "CMS",
-    "project": "Hospital Price Transparency",
-    "position": "Individual Contributor (technical)",
-    "website": "",
+    "position": "Hospital Price Transparency",
+    "company": "MITRE | CMS",
     "startDate": "Aug. 2022",
     "endDate": "Apr. 2024",
-    "summary": "Developed core functionality on Hospital Price Transparency MRF validator. Maintained CMS github user site.",
+    "summary": "This project supported CMS in implementing their rule. Maintained documentation on an open-source CMSgov github repository, broad tasking including data collection and visualization. Aided in the development of the MRF validator for the rule.",
+    "link": "",
     "highlights": [
-      "highlight 1",
-      "highlight 2"
+      "Individual Contributor (technical)",
+      "Developed core functionality on Hospital Price Transparency MRF validator. Maintained CMS github user site."
     ]
   },
   {
-    "company": "The MITRE Corporation",
-    "agency": "CMS",
-    "project": "Transparency in Coverage",
-    "position": "Individual Contributor (technical)",
-    "website": "",
-    "startDate": "Jab. 2022",
-    "endDate": "Feb. 2024",
-    "summary": "Informed Sponsor inquiry, compared Hospital and Insurer MRFs regarding rule with data analysis tools.",
-    "highlights": [
-      "highlight 1",
-      "highlight 2"
-    ]
-  },
-  {
-    "company": "The MITRE Corporation",
-    "agency": "CDC",
-    "project": "Public Health FHIR Implementation Collaborative",
-    "position": "Individual Contributor (technical)",
-    "website": "",
+    "position": "Public Health FHIR Implementation Collaborative (PHFIC)",
+    "company": "MITRE | CDC",
     "startDate": "May 2022",
     "endDate": "May 2023",
-    "summary": "Developed FHIR clients/servers and designed testing methods to implement health data messaging between STLT Health Departments and CDC.",
+    "summary": "Developed an Inferno test suite for STLT stakeholders to use in setting up interoperable communication in the form of HL7 FHIR messaging. Aided in developing an IG. Stood up FHIR server and created FHIR client and server in HAPI FHIR.",
+    "link": "",
     "highlights": [
-      "highlight 1",
-      "highlight 2"
+      "Individual Contributor (technical)",
+      "Developed FHIR clients/servers and designed testing methods to implement health data messaging between STLT Health Departments and CDC."
     ]
   },
   {
-    "company": "Oracle Health",
-    "agency": "",
-    "project": "",
+    "position": "Transparency in Coverage",
+    "company": "MITRE | CMS",
+    "startDate": "Jan. 2022",
+    "endDate": "Feb. 2024",
+    "summary": "This CMS project is to support another similar rule for CMS but for insurance instead of hospitals. Aided in development of the file validator, data collection & visualization. Assisted in producing data for research questions. Processed JSON files in an environmental scan.\n",
+    "link": "",
+    "highlights": [
+      "Individual Contributor (technical)",
+      "Informed Sponsor inquiry, compared Hospital and Insurer MRFs regarding rule with data analysis tools."
+    ]
+  },
+  {
+    "position": "CDS Connect",
+    "company": "MITRE | AHRQ",
+    "startDate": "Jun. 2021",
+    "endDate": "Aug. 2024",
+    "summary": "Clinical Decision Support (CDS) Connect is a public platform for authoring and sharing interoperable CDS resources. These resources are hosted on a publicly accessible repository with other clinical information meant to aid clinical decision making.",
+    "link": "/project/AHRQ-CDS-Connect",
+    "highlights": [
+      "Individual Contributor (technical)",
+      "Full stack developer and repository maintainer, supported the implementation of the Artifact repository and website."
+    ]
+  },
+  {
     "position": "Systems Engineer II",
-    "website": "",
+    "company": "Oracle Health",
     "startDate": "Oct. 2018",
     "endDate": "Feb. 2021",
     "summary": "Developed and supported clinical applications and the transmission of health data for bedside medical devices.",
+    "link": "",
     "highlights": [
       "fill with stuff from the_way",
       "fill with stuff from the_way"
