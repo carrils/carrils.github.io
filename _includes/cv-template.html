@@ -17,7 +17,6 @@
 
 <div class="cv-container">
     <!-- Basic Information -->
-    <div class="cv-section cv-header">
         <h1>{{ cv.basics.name }}</h1>
         {% if cv.basics.label %}
         <h2>{{ cv.basics.label }}</h2>
@@ -61,7 +60,6 @@
             {% endfor %}
         </div>
         {% endif %}
-    </div>
 
     {% if cv.basics.summary %}
     <!-- Summary -->
@@ -111,7 +109,7 @@
                 <div class="cv-item-content">
                     <div class="cv-item-subtitle">{{ work.company }}</div>
                     {% if work.summary %}
-                    <div class="cv-item-detail">{{ work.summary }}</div>
+                    <div class="cv-item-detail"> &emsp;{{ work.summary }}</div>
                     {% endif %}
                     {% if work.highlights.size > 0 %}
                     <ul class="cv-highlights">

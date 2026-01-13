@@ -1,7 +1,8 @@
 ---
+# this file is called cv-json because it is derived from many json files after running the python script
 layout: archive
 #title: "Curriculum vitae"
-permalink: /cv-json/
+permalink: /cv/
 author_profile: false
 redirect_from:
   - /resume-json

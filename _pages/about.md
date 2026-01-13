@@ -8,8 +8,8 @@ redirect_from:
 ---
 Hey, my names Sam.
 
-I am a computer programmer that works to develop health software and support both public and private healthcare initiatives.
-Creating and using technology to benefit humans is important to me, and I see health IT and health software as the best way to do that.
+I am a computer programmer that develops health software to support both public and private healthcare initiatives.
+Creating and enabling technology to benefit humans is important to me, and I see health software and health IT as the best way to do that.
 
 After getting my Bachelors in Computer Science, I went to work at Oracle Health when it was still called Cerner.
 I cut my teeth on health software there supporting and developing their EHR solutions and bedside medical device interfacing, eventually supporting the MHS Genesis EHR, working with VA and DoW hospitals.

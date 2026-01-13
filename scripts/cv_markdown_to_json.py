@@ -117,8 +117,7 @@ def extract_author_info(config):
             author_info['summary'] = f"Currently seeking employment"
 
         # Use actual CV summary instead of website author summary...
-        author_info[
-            'summary'] = 'Goal-oriented software engineering professional with 4+ years of progressive experience supporting federal research and development projects for various Sponsor Agencies with The MITRE Corporation. Prior to MITRE, I developed and supported EHR systems with Oracle. Driven by a natural affinity for programmatic problem-solving, I am seeking to contribute to impactful projects and initiatives. Kansas City-based developer proficient in health data interoperability, steering complex technical conversations with stakeholders, and posessing clear communication skills.'
+        author_info['summary'] = 'Goal-oriented software engineering professional with 4+ years of progressive experience supporting federal research and development projects for various sponsor agencies with The MITRE Corporation. Prior to MITRE, I developed and supported EHR systems with Oracle. Driven by a natural affinity for programmatic problem-solving, I am seeking to contribute to impactful projects and initiatives. Kansas City-based developer proficient in health data interoperability, steering complex technical conversations with stakeholders, and posessing clear communication skills.'
         # if author.get('bio'):
         #     if author_info['summary']:
         #         author_info['summary'] += f". {author.get('bio')}"
