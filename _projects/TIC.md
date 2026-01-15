@@ -1,19 +1,24 @@
 ---
 title: 'Transparency In Coverage'
 collection: projects
-#category: manuscripts
 permalink: /project/CMS-TiC
 excerpt: 'A big ol rule to do some regulating i tell ya wat :::::D'
-date: 2026-1-12
 author_profile: false
 ---
-Transparency In Coverage is an initiative by CMS to introduce transparency to coverage.
+[Healthplan Price Transparency](https://www.cms.gov/priorities/healthplan-price-transparency/health-plan-price-transparency) 
+is an initiative by CMS aiming to help people know the price of covered items or services under a given health insurance plan.
 
-very noble cause you see.
+The initiative was first called 'Transparency in Coverage' and later was renamed 'Healthplan Price Transparency'.
+This project supported and advised leadership at both the Center for Medicare (CM) and the Center for Consumer 
+Information and Insurance Oversight (CCIIO) on implementing health insurance reform requirements ([45 CFR Part 147](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147)) that supported the transparency initiative.
 
-
-Read eCFR thingy
+Project Contributions
 ======
-[45 CFR Part 147](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147)
-and
-[45 CFR Part 158](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-158)
+I worked on the project as a technical individual contributor supporting a Tech Lead to develop the validator and manage its repository.
+It differs from my later role on the Hospital Price Transparency project in that I only worked on the technical team.
+* Facilitated the comparison of prices for charge items in insurer and hospital mrf's to aid in sponsor inquiry and inform strategy by creating the [MRF Comparison Tool](/mrf-comparison-tool/)
+* Set up CI/CD for the MRF validator [GitHub repo](https://github.com/CMSgov/price-transparency-guide-validator), helped answer questions and fix issues, manage repository
+* Discovered and implemented underlying technologies that enabled XML file validation format as required by the rule (schematron & xml schema dialect)
+* Assisted in the development of the MRF File Validator
+
+ 

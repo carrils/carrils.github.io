@@ -1,16 +1,21 @@
 ---
 title: 'Hospital Price Transparency'
 collection: projects
-#category: manuscripts
 permalink: /project/CMS-HPT
 excerpt: 'Another big ol rule to do some regulatin tell ya huatt >:D'
-date: 2026-1-12
 author_profile: false
 ---
-Hospital Price Transparency is an initiative by CMS to introduce transparency to to hospital prices. 
+[Hospital Price Transparency](https://www.cms.gov/priorities/key-initiatives/hospital-price-transparency) 
+is an initiative by CMS that helps people know the price of services and items from hospitals before you receive them.
 
-very noble cause you see.
+The project at MITRE aimed to support and advise leadership at the Center for Medicare (CM) within CMS in the implementation
+of the Hospital Price Transparency final rule, [45 CFR part 180](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-E/part-180).
 
-Read eCFR thingy
+Project Contributions
 ======
-[45 CFR part 180](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-E/part-180)
+My role on the project was a staff developer to assist in the creation of software supporting the implementation as well as general technical support. 
+Some of the things I did on my time in the project include:
+* Developed the [HPT online File Validator](https://cmsgov.github.io/hpt-tool/online-validator/)
+* Maintained and updated the [HPT tools website](https://cmsgov.github.io/hpt-tool/)
+* Data visualization and transformation for the various formats that MRFs can be in (JSON, CSV, XML)
+* Collected web traffic statistics to CMS GitHub repositories and the HPT tools website

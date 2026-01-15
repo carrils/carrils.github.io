@@ -1,13 +1,9 @@
 ---
 title: "CDS Connect"
 collection: projects
-#category: manuscripts
 permalink: /project/AHRQ-CDS-Connect
 excerpt: 'Clinical Decision Support (CDS) Connect is a public platform for authoring and sharing interoperable CDS resources. These resources are hosted on a publicly accessible repository with other clinical information meant to aid clinical decision making.'
-date: 2025-12-24 
 author_profile: false
-ext_url: 'https://pubmed.ncbi.nlm.nih.gov/22052898/'
-citation: 'Boxwala, Aziz A et al. “A multi-layered framework for disseminating knowledge for computer-based decision support.” Journal of the American Medical Informatics Association : JAMIA vol. 18 Suppl 1,Suppl 1 (2011): i132-9. doi:10.1136/amiajnl-2011-000334'
 ---
 What is CDS Connect?
 ======

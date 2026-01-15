@@ -2,7 +2,7 @@
 
 <style>
     .archive {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
         float: none;
         padding-right: 0;
@@ -10,13 +10,13 @@
 
     @media (min-width: 80em) {
         .archive {
-            width: 70%;
+            width: 80%;
         }
     }
 </style>
 
 <div class="cv-container">
-    <!-- Basic Information -->
+    <!-- Bio -->
         <h1>{{ cv.basics.name }}</h1>
         {% if cv.basics.label %}
         <h2>{{ cv.basics.label }}</h2>
@@ -62,7 +62,7 @@
         {% endif %}
 
     {% if cv.basics.summary %}
-    <!-- Summary -->
+    <!-- Profressional Summary -->
     <div class="cv-section">
         <h2>Summary</h2>
         <p>{{ cv.basics.summary }}</p>

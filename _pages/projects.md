@@ -4,20 +4,36 @@ title: "MITRE Projects"
 permalink: /projects/
 author_profile: false
 ---
-Projects at MITRE follow a standard model of not being standard at all. <br />
-This in practice means that each project is unique and has its own set of differences according to how the Project Leader captains the ship.
-They do however follow a general structure of having a Project Leader leading a team of people executing work done (usually on contract) for a project.
-This project will have goals met by the execution of tasks that have been planned out ahead of time through work-shaping sessions with stakeholders.
-These tasks will be ensured by task leaders that may or may not be SMEs in their respective tasking.
+<style>
+  .archive {
+    width: 80%;
+    margin: 0 auto;
+    float: none;
+    padding-right: 0;
+  }
+  
+  @media (min-width: 80em) {
+    .archive {
+      width: 70%;
+    }
+  }
+</style>
+All projects at MITRE follow a standard model of not being standard.<br />
+This in practice means that each project is unique and has its own set of differences according to how the Project Leader captains the ship. 
+They do however follow a general structure of having a Project Leader delivering contractually defined work, executed by Task Leaders and often assisted by a Deputy Project Lead.
+
+The actual project work is outlined in a Statement of Work (SOW) document that details scope, objectives, deliverables and a timeline.
+These objectives and deliverables are broken down and categorized into tasks.
+These tasks are then managed and ensured by Task Leaders that are usually recognized SMEs in their respective task. 
 Task leaders are assisted by individual contributors to the project, typically in the form of engineers and other personnel.
 <br />
 <br />
 Below I have compiled a list of some of the projects I have had the chance to work on, and have mentioned on my CV.
 
-Projects
+Project Experience
 ======
 <ul>
-{% for post in site.projects %}
-    {% include archive-single.html %}
-{% endfor %}
+    {% for post in site.projects %}
+        <li>{% include archive-single.html %}
+    {% endfor %}
 

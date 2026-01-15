@@ -4,8 +4,8 @@
     "company": "MITRE | ASTP",
     "startDate": "Nov. 2024",
     "endDate": "Apr. 2025",
-    "summary": "Inferno is an open source tool/framework for creating, executing and sharing automated conformance tests for the FHIR Standard. Inferno tests are packaged in executable Test Kits, which target requirements provided by FHIR Implementation Guides. ",
-    "link": "",
+    "summary": "Inferno is an open source framework for creating, executing and sharing server/client conformance tests for the FHIR messaging standard. Inferno tests are packaged into executable Test Kits, which test and report a server or clients conformance to a FHIR Implementation Guide.",
+    "link": "/project/ASTP-Inferno",
     "highlights": [
       "Individual Contributor (technical)",
       "Developed Test Kits & internal team tooling; Carin for blue button, Bulk data, US CDI."
@@ -16,11 +16,12 @@
     "company": "MITRE | CMS",
     "startDate": "Aug. 2022",
     "endDate": "Apr. 2024",
-    "summary": "This project supported CMS in implementing their rule. Maintained documentation on an open-source CMSgov github repository, broad tasking including data collection and visualization. Aided in the development of the MRF validator for the rule.",
-    "link": "",
+    "summary": "This project supported CMS in implementing their Hospital Price Transparency rule (<a href=\"https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-E/part-180\">45 CFR part 180</a>).",
+    "link": "/project/CMS-HPT",
     "highlights": [
       "Individual Contributor (technical)",
-      "Developed core functionality on Hospital Price Transparency MRF validator. Maintained CMS github user site."
+      "Developed core functionality on Hospital Price Transparency MRF validator. Maintained CMS github user site.",
+      "Maintained documentation on an open-source CMSgov github repository, broad tasking including data collection and visualization. Aided in the development of the MRF validator for the rule."
     ]
   },
   {
@@ -28,11 +29,12 @@
     "company": "MITRE | CDC",
     "startDate": "May 2022",
     "endDate": "May 2023",
-    "summary": "Developed an Inferno test suite for STLT stakeholders to use in setting up interoperable communication in the form of HL7 FHIR messaging. Aided in developing an IG. Stood up FHIR server and created FHIR client and server in HAPI FHIR.",
-    "link": "",
+    "summary": "This project aimed to create a public-private partnership between STLT health departments, MITRE, and CDC for increased messaging capability using the FHIR standard.",
+    "link": "/project/CDC-PHFIC",
     "highlights": [
-      "Individual Contributor (technical)",
-      "Developed FHIR clients/servers and designed testing methods to implement health data messaging between STLT Health Departments and CDC."
+      "Task Leader",
+      "Developed FHIR clients/servers and designed testing methods to implement health data messaging between STLT Health Departments and CDC.",
+      "Developed an Inferno test suite for STLT stakeholders to use in setting up interoperable communication in the form of HL7 FHIR messaging. Aided in developing an IG. Stood up FHIR server and created FHIR client and server in HAPI FHIR."
     ]
   },
   {
@@ -40,11 +42,12 @@
     "company": "MITRE | CMS",
     "startDate": "Jan. 2022",
     "endDate": "Feb. 2024",
-    "summary": "This CMS project is to support another similar rule for CMS but for insurance instead of hospitals. Aided in development of the file validator, data collection & visualization. Assisted in producing data for research questions. Processed JSON files in an environmental scan.\n",
-    "link": "",
+    "summary": "This project supported CMS implementing a rule similar to Hospital Price Transparency but for insurance, Transparency in Coverage. (<a href=\"https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147\">45 CFR Part 147</a>).",
+    "link": "/project/CMS-TiC",
     "highlights": [
       "Individual Contributor (technical)",
-      "Informed Sponsor inquiry, compared Hospital and Insurer MRFs regarding rule with data analysis tools."
+      "Informed Sponsor inquiry, compared Hospital and Insurer MRFs regarding rule with data analysis tools.",
+      "Aided in development of the file validator, data collection & visualization. Assisted in producing data for research questions. Processed JSON files in an environmental scan."
     ]
   },
   {

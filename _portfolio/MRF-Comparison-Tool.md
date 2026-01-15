@@ -2,7 +2,7 @@
 layout: archive
 title: "Machine-Readable File (MRF) Comparison Tool"
 permalink: /mrf-comparison-tool/
-excerpt: "A command-line tool that compares the contents of MRFs and produces an Excel workbook for increased ease of interpretation"
+excerpt: "A command-line tool that compares the contents of MRFs and produces an Excel workbook for increased ease of interpretation and analysis."
 collection: portfolio
 #author_profile: true
 ---
