@@ -50,12 +50,12 @@
       ]
     },
     {
-      "company": "MITRE | CDC",
+      "company": "MITRE | ASTP",
       "position": "Public Health FHIR Implementation Collaborative (PHFIC)",
       "startDate": "May 2022",
       "endDate": "May 2023",
-      "summary": "This project aimed to create a public-private partnership between STLT health departments, MITRE, and CDC for increased messaging capability using the FHIR standard.",
-      "link": "/project/CDC-PHFIC",
+      "summary": "This project prototyped a public-private partnership between STLT health departments, MITRE, and CDC for increased messaging capability using the FHIR standard.",
+      "link": "/project/ONC-PHFIC",
       "highlights": [
         "Task Leader",
         "Developed FHIR clients/servers and designed testing methods to implement health data messaging between STLT Health Departments and CDC.",
@@ -146,21 +146,21 @@
       "publisher": "",
       "releaseDate": "",
       "website": "",
-      "summary": "Clinical Decision Support (CDS) Connect is a public platform for authoring and sharing interoperable CDS resources. These resources are hosted on a publicly accessible repository with other clinical information meant to aid clinical decision making."
+      "summary": "Clinical Decision Support (CDS) Connect is a public platform for authoring and sharing interoperable CDS resources"
     },
     {
       "name": "Hospital Price Transparency",
       "publisher": "",
       "releaseDate": "",
       "website": "",
-      "summary": "Another big ol rule to do some regulatin tell ya huatt >:D"
+      "summary": "A project supporting the CMS initiative for Hospital Price Transparency"
     },
     {
       "name": "Inferno",
       "publisher": "",
       "releaseDate": "",
       "website": "",
-      "summary": "A plug and play ruby framework to test server client conformance to FHIR messaging standards and Implementation Guides"
+      "summary": "A ruby framework to test server-client conformance to FHIR messaging standards and Implementation Guides"
     },
     {
       "name": "Public Health FHIR Implementation Collaborative (PHFIC)",
@@ -174,7 +174,7 @@
       "publisher": "",
       "releaseDate": "",
       "website": "",
-      "summary": "A big ol rule to do some regulating i tell ya wat :::::D"
+      "summary": "A project supporting the CMS initiative for Healthcare Price Transparency"
     }
   ]
 }

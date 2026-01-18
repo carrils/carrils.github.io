@@ -2,7 +2,7 @@
 title: 'Hospital Price Transparency'
 collection: projects
 permalink: /project/CMS-HPT
-excerpt: 'Another big ol rule to do some regulatin tell ya huatt >:D'
+excerpt: 'A project supporting the CMS initiative for Hospital Price Transparency'
 author_profile: false
 ---
 [Hospital Price Transparency](https://www.cms.gov/priorities/key-initiatives/hospital-price-transparency) 

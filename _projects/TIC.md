@@ -2,7 +2,7 @@
 title: 'Transparency In Coverage'
 collection: projects
 permalink: /project/CMS-TiC
-excerpt: 'A big ol rule to do some regulating i tell ya wat :::::D'
+excerpt: 'A project supporting the CMS initiative for Healthcare Price Transparency'
 author_profile: false
 ---
 [Healthplan Price Transparency](https://www.cms.gov/priorities/healthplan-price-transparency/health-plan-price-transparency) 

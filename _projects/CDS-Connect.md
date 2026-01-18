@@ -2,19 +2,19 @@
 title: "CDS Connect"
 collection: projects
 permalink: /project/AHRQ-CDS-Connect
-excerpt: 'Clinical Decision Support (CDS) Connect is a public platform for authoring and sharing interoperable CDS resources. These resources are hosted on a publicly accessible repository with other clinical information meant to aid clinical decision making.'
+excerpt: 'Clinical Decision Support (CDS) Connect is a public platform for authoring and sharing interoperable CDS resources'
 author_profile: false
 ---
-What is CDS Connect?
-======
 Clinical Decision Support (CDS) Connect is a freely available web-based platform for authoring and sharing interoperable CDS resources. These resources are grouped into 'artifacts' centered around a theme, with the ultimate goal to aid in decision making. It is then hosted on a in a knowledge repository with other artifacts.
 
 Read more about Clinical Decision Support [here](https://digital.ahrq.gov/health-it-tools-and-resources/clinical-decision-support-cds). <br>
 Read the paper CDS Connect is based on [here](https://pubmed.ncbi.nlm.nih.gov/22052898/).
 
-Technically what is it?
+Tech stack
 ======
-Its an OTS solution from Acquia that required building out. A cloud-based LAMP stack that is preconfigured for Drupal development. MITRE subcontracted [Acquia](https://www.acquia.com) to maintain the servers and we built out and administered the actual drupal website as an Acquia Cloud application.
+CDS Connect was built from an OTS solution provided by Acquia that required building out. 
+A cloud-based LAMP stack that is preconfigured for Drupal development. 
+MITRE subcontracted [Acquia](https://www.acquia.com) to maintain the servers and we built out and administered the actual drupal website as an Acquia Cloud application.
 
 What's its current status?
 ======

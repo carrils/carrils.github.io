@@ -26,11 +26,11 @@
   },
   {
     "position": "Public Health FHIR Implementation Collaborative (PHFIC)",
-    "company": "MITRE | CDC",
+    "company": "MITRE | ASTP",
     "startDate": "May 2022",
     "endDate": "May 2023",
-    "summary": "This project aimed to create a public-private partnership between STLT health departments, MITRE, and CDC for increased messaging capability using the FHIR standard.",
-    "link": "/project/CDC-PHFIC",
+    "summary": "This project prototyped a public-private partnership between STLT health departments, MITRE, and CDC for increased messaging capability using the FHIR standard.",
+    "link": "/project/ONC-PHFIC",
     "highlights": [
       "Task Leader",
       "Developed FHIR clients/servers and designed testing methods to implement health data messaging between STLT Health Departments and CDC.",
