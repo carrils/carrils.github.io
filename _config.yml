@@ -26,9 +26,10 @@ author:
   avatar: "professional-cropped.jpg"
   name: "Sam Carrillo"
   pronouns: # "He/Him"  # I use he/him but for stylistic purposes I will omit this here.
-  bio: "Software engineer with a background in healthcare software development"
+#  bio: "Software engineer with a background in healthcare software development"
+  bio: ""
   location: "Kansas City, Missouri"
-  employer: "Seeking Employment"
+#  employer: "Seeking Employment"
   uri: # URL
   email: "scarrillo578@gmail.com"
 

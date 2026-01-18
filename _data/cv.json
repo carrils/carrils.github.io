@@ -29,7 +29,7 @@
       "position": "Inferno",
       "startDate": "Nov. 2024",
       "endDate": "Apr. 2025",
-      "summary": "Inferno is an open source framework for creating, executing and sharing server/client conformance tests for the FHIR messaging standard. Inferno tests are packaged into executable Test Kits, which test and report a server or clients conformance to a FHIR Implementation Guide.",
+      "summary": "Inferno is a ruby framework to test server-client conformance to FHIR messaging standards and Implementation Guides. My role for this project focused on being one of their primary developers, creating conformance test kits in Ruby.",
       "link": "/project/ASTP-Inferno",
       "highlights": [
         "Individual Contributor (technical)",
@@ -41,7 +41,7 @@
       "position": "Hospital Price Transparency",
       "startDate": "Aug. 2022",
       "endDate": "Apr. 2024",
-      "summary": "This project supported CMS in implementing their Hospital Price Transparency rule (<a href=\"https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-E/part-180\">45 CFR part 180</a>).",
+      "summary": "A project aimed to support and advise leadership at the Center for Medicare (CM) within CMS in the implementation of the Hospital Price Transparency final rule, 45 CFR part 180. My role on the project was a staff developer to assist in the creation of software for the implementation of the rule as well as general technical support.",
       "link": "/project/CMS-HPT",
       "highlights": [
         "Individual Contributor (technical)",
@@ -54,7 +54,7 @@
       "position": "Public Health FHIR Implementation Collaborative (PHFIC)",
       "startDate": "May 2022",
       "endDate": "May 2023",
-      "summary": "This project prototyped a public-private partnership between STLT health departments, MITRE, and CDC for increased messaging capability using the FHIR standard.",
+      "summary": "This project prototyped a public-private partnership established by MITRE and CDC to enable FHIR messaging capabilities for STLT health departments. My role on the project was to be a staff developer that assisted in the task of teaching and demonstrating FHIR software.",
       "link": "/project/ONC-PHFIC",
       "highlights": [
         "Task Leader",
@@ -67,7 +67,7 @@
       "position": "Transparency in Coverage",
       "startDate": "Jan. 2022",
       "endDate": "Feb. 2024",
-      "summary": "This project supported CMS implementing a rule similar to Hospital Price Transparency but for insurance, Transparency in Coverage. (<a href=\"https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147\">45 CFR Part 147</a>).",
+      "summary": "This project supported CMS (CM and CCIIO) in implementing the Transparency in Coverage final rule, 45 CFR Part 147. I assisted in the development of the MRF validator and managed its github repository.",
       "link": "/project/CMS-TiC",
       "highlights": [
         "Individual Contributor (technical)",
@@ -80,7 +80,7 @@
       "position": "CDS Connect",
       "startDate": "Jun. 2021",
       "endDate": "Aug. 2024",
-      "summary": "Clinical Decision Support (CDS) Connect is a public platform for authoring and sharing interoperable CDS resources. These resources are hosted on a publicly accessible repository with other clinical information meant to aid clinical decision making.",
+      "summary": "Clinical Decision Support (CDS) Connect is a public platform for authoring and sharing interoperable CDS resources. I was a full stack developer, I helped develop and maintain the Artifact Repository as well as help administer the website in general.",
       "link": "/project/AHRQ-CDS-Connect",
       "highlights": [
         "Individual Contributor (technical)",

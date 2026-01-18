@@ -16,6 +16,14 @@ CDS Connect was built from an OTS solution provided by Acquia that required buil
 A cloud-based LAMP stack that is preconfigured for Drupal development. 
 MITRE subcontracted [Acquia](https://www.acquia.com) to maintain the servers and we built out and administered the actual drupal website as an Acquia Cloud application.
 
+Project Contributions
+======
+- fullstack developer, backend and front end LAMP stack on Acquia Cloud
+- developed new custom drupal modules
+- worked with a physician on updating clinical artifacts to keep them up to date annually
+- supported project leadership in technical administrative tasks
+- general website administration
+
 What's its current status?
 ======
 Unfortunately AHRQ has listed [this note](https://digital.ahrq.gov/health-it-tools-and-resources/clinical-decision-support-cds#:~:text=are%20shown%20below.-,Key%20Projects,-The%20CDS%20Connect) on its page for CDS Connect regarding its current status:
