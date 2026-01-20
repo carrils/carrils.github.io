@@ -1,0 +1,120 @@
+{
+  "abstract": "This final rule implements certain provisions of the 21st Century Cures Act, including Conditions and Maintenance of Certification requirements for health information technology (health IT) developers under the ONC Health IT Certification Program (Program), the voluntary certification of health IT for use by pediatric health care providers, and reasonable and necessary activities that do not constitute information blocking. The implementation of these provisions will advance interoperability and support the access, exchange, and use of electronic health information. The rule also finalizes certain modifications to the 2015 Edition health IT certification criteria and Program in additional ways to advance interoperability, enhance health IT certification, and reduce burden and costs.",
+  "action": "Final rule.",
+  "agencies": [
+    {
+      "raw_name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES",
+      "name": "Health and Human Services Department",
+      "id": 221,
+      "url": "https://www.federalregister.gov/agencies/health-and-human-services-department",
+      "json_url": "https://www.federalregister.gov/api/v1/agencies/221",
+      "parent_id": null,
+      "slug": "health-and-human-services-department"
+    },
+    {
+      "raw_name": "Office of the Secretary"
+    }
+  ],
+  "body_html_url": "https://www.federalregister.gov/documents/full_text/html/2020/05/01/2020-07419.html",
+  "cfr_references": [
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 170,
+      "title": 45
+    },
+    {
+      "chapter": null,
+      "citation_url": null,
+      "part": 171,
+      "title": 45
+    }
+  ],
+  "citation": "85 FR 25642",
+  "comment_url": null,
+  "comments_close_on": null,
+  "correction_of": null,
+  "corrections": [
+    "https://www.federalregister.gov/api/v1/documents/C1-2020-07419",
+    "https://www.federalregister.gov/api/v1/documents/C2-2020-07419"
+  ],
+  "dates": "Effective date: This final rule is effective on June 30, 2020.",
+  "disposition_notes": null,
+  "docket_ids": [],
+  "dockets": [],
+  "document_number": "2020-07419",
+  "effective_on": "2020-06-30",
+  "end_page": 25961,
+  "executive_order_notes": null,
+  "executive_order_number": null,
+  "explanation": null,
+  "full_text_xml_url": "https://www.federalregister.gov/documents/full_text/xml/2020/05/01/2020-07419.xml",
+  "html_url": "https://www.federalregister.gov/documents/2020/05/01/2020-07419/21st-century-cures-act-interoperability-information-blocking-and-the-onc-health-it-certification",
+  "images": {},
+  "images_metadata": {},
+  "json_url": "https://www.federalregister.gov/api/v1/documents/2020-07419?publication_date=2020-05-01",
+  "mods_url": "https://www.govinfo.gov/metadata/granule/FR-2020-05-01/2020-07419/mods.xml",
+  "not_received_for_publication": null,
+  "page_length": 320,
+  "page_views": {
+    "count": 317091,
+    "last_updated": "2026-01-17 10:15:03 -0500"
+  },
+  "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2020-05-01/pdf/2020-07419.pdf",
+  "presidential_document_number": null,
+  "proclamation_number": null,
+  "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2020-07419.pdf?1587500136",
+  "publication_date": "2020-05-01",
+  "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2020/05/01/2020-07419.txt",
+  "regulation_id_number_info": {
+    "0955-AA01": {
+      "issue": "202004",
+      "html_url": "https://www.federalregister.gov/regulations/0955-AA01/21st-century-cures-act-interoperability-information-blocking-and-the-onc-health-it-certification-pro",
+      "title": "21st Century Cures Act: Interoperability, Information Blocking, and the ONC Health IT Certification Program",
+      "xml_url": "http://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202004&RIN=0955-AA01&operation=OPERATION_EXPORT_XML",
+      "priority_category": "Economically Significant"
+    }
+  },
+  "regulation_id_numbers": [
+    "0955-AA01"
+  ],
+  "regulations_dot_gov_info": {
+    "supporting_documents": [],
+    "comments_count": 0,
+    "agency_id": "HHS",
+    "comments_url": "https://www.regulations.gov/docketBrowser?rpp=50&so=DESC&sb=postedDate&po=0&dct=PS&D=HHS-OS-2022-0008",
+    "supporting_documents_count": 0,
+    "docket_id": "HHS-OS-2022-0008",
+    "document_id": "HHS-OS-2022-0008-0577",
+    "regulation_id_number": null,
+    "title": "HHS 2022 Archive",
+    "checked_regulationsdotgov_at": "2022-05-28T03:30:05Z"
+  },
+  "regulations_dot_gov_url": null,
+  "significant": true,
+  "signing_date": null,
+  "start_page": 25642,
+  "subtype": null,
+  "title": "21st Century Cures Act: Interoperability, Information Blocking, and the ONC Health IT Certification Program",
+  "toc_doc": null,
+  "toc_subject": null,
+  "topics": [
+    "Computer technology",
+    "Health",
+    "Health care",
+    "Health insurance",
+    "Health professions",
+    "Health records",
+    "Health records",
+    "Hospitals",
+    "Incorporation by reference",
+    "Laboratories",
+    "Medicaid",
+    "Medicare",
+    "Privacy",
+    "Public health",
+    "Reporting and recordkeeping requirements"
+  ],
+  "type": "Rule",
+  "volume": 85
+}

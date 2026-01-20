@@ -24,7 +24,7 @@ Project Contributions
 ======
 My role on the project was to be a staff developer and individual contributor that supported the technical lead in the task of teaching and demonstrating FHIR software. 
 Some of the things I did on my time in the project include:
-* Helped design and demonstrate functional reference implementations of new FHIR implementation guides
-* Designed and implemented testing methodology netween a fhir client and a server with state and local HDs
-* Created documentation to assist in teaching how to develop this software for a health department
+* Designed and demonstrated functional reference implementations of new FHIR IGs (both server and client)
+* Designed and conducted client/server testing between state and local HDs
+* Created technical documentation teaching how to develop fhir clients and server software for a health department
 * Researched existing OTS solutions that may fit a health departments desired use case

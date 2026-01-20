@@ -7,8 +7,8 @@
     "summary": "Inferno is a ruby framework to test server-client conformance to FHIR messaging standards and Implementation Guides. My role for this project focused on being one of their primary developers, creating conformance test kits in Ruby.",
     "link": "/project/ASTP-Inferno",
     "highlights": [
-      "Individual Contributor (technical)",
-      "Developed Test Kits & internal team tooling; Carin for blue button, Bulk data, US CDI."
+      "Developed internal team tooling to assist in the automation of test kit creation",
+      "Contributed to the development of multiple test kits; Carin for blue button, Bulk data, US CDI"
     ]
   },
   {
@@ -19,9 +19,8 @@
     "summary": "A project aimed to support and advise leadership at the Center for Medicare (CM) within CMS in the implementation of the Hospital Price Transparency final rule, 45 CFR part 180. My role on the project was a staff developer to assist in the creation of software for the implementation of the rule as well as general technical support.",
     "link": "/project/CMS-HPT",
     "highlights": [
-      "Individual Contributor (technical)",
-      "Developed core functionality on Hospital Price Transparency MRF validator. Maintained CMS github user site.",
-      "Maintained documentation on an open-source CMSgov github repository, broad tasking including data collection and visualization. Aided in the development of the MRF validator for the rule."
+      "Developed core functionality on Hospital Price Transparency MRF validator, maintained its CMS github user site.",
+      "Data collection, visualization and transformation using Machine-Readable-Files (JSON, CSV, XML) to inform policy-making decisions for stakeholders"
     ]
   },
   {
@@ -29,12 +28,11 @@
     "company": "MITRE | ASTP",
     "startDate": "May 2022",
     "endDate": "May 2023",
-    "summary": "This project prototyped a public-private partnership established by MITRE and CDC to enable FHIR messaging capabilities for STLT health departments. My role on the project was to be a staff developer that assisted in the task of teaching and demonstrating FHIR software.",
+    "summary": "This project prototyped a public-private partnership established by MITRE and CDC to enable FHIR messaging capabilities for STLT health departments. My role on the project was to be a staff developer that assisted in the task of demonstrating the creation and use FHIR software.",
     "link": "/project/ONC-PHFIC",
     "highlights": [
-      "Task Leader",
-      "Developed FHIR clients/servers and designed testing methods to implement health data messaging between STLT Health Departments and CDC.",
-      "Developed an Inferno test suite for STLT stakeholders to use in setting up interoperable communication in the form of HL7 FHIR messaging. Aided in developing an IG. Stood up FHIR server and created FHIR client and server in HAPI FHIR."
+      "Created and demonstrated functional FHIR implementations of client and server software",
+      "Designed and conducted client/server testing between State and Local Health Departments"
     ]
   },
   {
@@ -45,9 +43,8 @@
     "summary": "This project supported CMS (CM and CCIIO) in implementing the Transparency in Coverage final rule, 45 CFR Part 147. I assisted in the development of the MRF validator and managed its github repository.",
     "link": "/project/CMS-TiC",
     "highlights": [
-      "Individual Contributor (technical)",
-      "Informed Sponsor inquiry, compared Hospital and Insurer MRFs regarding rule with data analysis tools.",
-      "Aided in development of the file validator, data collection & visualization. Assisted in producing data for research questions. Processed JSON files in an environmental scan."
+      "Developed XML file validation in the MRF File Validator",
+      "Informed Sponsor inquiry by creating new tools to compare Hospital and Insurer MRFs regarding rule."
     ]
   },
   {
@@ -58,8 +55,8 @@
     "summary": "Clinical Decision Support (CDS) Connect is a public platform for authoring and sharing interoperable CDS resources. I was a full stack developer, I helped develop and maintain the Artifact Repository as well as help administer the website in general.",
     "link": "/project/AHRQ-CDS-Connect",
     "highlights": [
-      "Individual Contributor (technical)",
-      "Full stack developer and repository maintainer, supported the implementation of the Artifact repository and website."
+      "Fullstack (LAMP) developer on Acquia Cloud",
+      "General website administration & technical support"
     ]
   },
   {
@@ -67,11 +64,11 @@
     "company": "Oracle Health",
     "startDate": "Oct. 2018",
     "endDate": "Feb. 2021",
-    "summary": "Developed and supported clinical applications and the transmission of health data for bedside medical devices.",
+    "summary": "Supported and developed clinical applications using the transmission of health data from bedside medical devices. Solutions include PowerChart, FetaLink, and transmission of health data over the interoprability bus among others.",
     "link": "",
     "highlights": [
-      "fill with stuff from the_way",
-      "fill with stuff from the_way"
+      "Supported Bedside Medical Device Interface (BMDI) health data transmission to Millennium solutions in Direct Care",
+      "Served in on-call rotation for tier 2 senior engineer support"
     ]
   }
 ]
