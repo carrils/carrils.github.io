@@ -18,7 +18,7 @@ I worked on the project as a technical individual contributor supporting a Tech 
 It differs from my later role on the Hospital Price Transparency project in that I only worked on the technical team.
 * Facilitated the comparison of prices for charge items in insurer and hospital mrf's to aid in sponsor inquiry and inform strategy by creating the [MRF Comparison Tool](/mrf-comparison-tool/)
 * Set up CI/CD for the MRF validator [GitHub repo](https://github.com/CMSgov/price-transparency-guide-validator), helped answer questions and fix issues, manage repository
-* Discovered and implemented underlying technologies that enabled XML file validation format as required by the rule (schematron & xml schema dialect)
+* Found and implemented technologies that allowed for XML file validation format as required by the rule 
 * Assisted in the development of the MRF File Validator
 
  
