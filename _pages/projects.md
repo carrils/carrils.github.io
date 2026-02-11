@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "MITRE Projects"
-permalink: /projects/
+permalink: projects/
 author_profile: false
 ---
 <style>
