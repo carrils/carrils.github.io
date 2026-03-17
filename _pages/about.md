@@ -6,7 +6,7 @@ redirect_from:
   - /about-me/
 ---
 
-Hey, I'm Sam.
+Hi, I'm Sam.
 
 I am a computer programmer that develops health software to support both public and private healthcare initiatives.
 Creating and enabling technology to benefit humans is important to me, and I see health software and health IT as the best way to do that.
