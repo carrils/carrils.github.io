@@ -24,7 +24,7 @@ Project Contributions
 - supported project leadership in technical administrative tasks
 - general website administration
 
-What's its current status?
+Current status
 ======
-Unfortunately AHRQ has listed [this note](https://digital.ahrq.gov/health-it-tools-and-resources/clinical-decision-support-cds#:~:text=are%20shown%20below.-,Key%20Projects,-The%20CDS%20Connect) on its page for CDS Connect regarding its current status:
->***Note: On April 28th, 2025, the CDS Connect Repository and Authoring tool will go offline while the CDS program realigns with new federal/agency priorities. Project publications and implementation guides are available [here](https://digital.ahrq.gov/ahrq-funded-projects/patient-centered-outcomes-research-clinical-decision-support-cds-connect#nav-publications). For any other questions, please contact the clinical decision support team at <a href='mailto:clinicaldecisionsupport@ahrq.hhs.gov'>clinicaldecisionsupport@ahrq.hhs.gov</a>.
+Fortunately, AHRQ has recently updated [this note](https://digital.ahrq.gov/health-it-tools-and-resources/clinical-decision-support-cds#:~:text=are%20shown%20below.-,Key%20Projects,-The%20CDS%20Connect) on its page for CDS Connect regarding its current status:
+>***Note: On April 28th, 2025, the CDS Connect Repository and Authoring tool went offline. Project publications and implementation guides are available [here](https://digital.ahrq.gov/ahrq-funded-projects/patient-centered-outcomes-research-clinical-decision-support-cds-connect#nav-publications). This project is now being developed further as the CDS Connect Community Edition via HL7®, including a new set of tools called CQL Studio, which is an integrated web application suite for developing, testing, and publication of CQL and FHIR-based artifacts that can become CDS or dQMs. For any other questions, please contact the clinical decision support team at <a href='mailto:clinicaldecisionsupport@ahrq.hhs.gov'>clinicaldecisionsupport@ahrq.hhs.gov</a>.

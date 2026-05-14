@@ -3,7 +3,7 @@
     "name": "Sam Carrillo",
     "email": "scarrillo578@gmail.com",
     "phone": "(816) 721-4245",
-    "website": "https://carrils.github.io/",
+    "website": "https://carrils.github.io",
     "summary": "Goal-oriented software engineering professional with 4+ years of progressive experience supporting federal research and development projects for various sponsor agencies with The MITRE Corporation. Prior to MITRE, I developed and supported EHR systems with Oracle. Driven by a natural affinity for programmatic problem-solving, I am seeking to contribute to impactful projects and initiatives. Kansas City-based developer proficient in health data interoperability, steering complex technical conversations with stakeholders, and posessing clear communication skills.",
     "location": {
       "address": "",
@@ -89,7 +89,7 @@
       "position": "Systems Engineer II",
       "startDate": "Oct. 2018",
       "endDate": "Feb. 2021",
-      "summary": "Supported and developed clinical applications using the transmission of health data from bedside medical devices. Solutions include PowerChart, FetaLink, and transmission of health data over the interoprability bus",
+      "summary": "Supported and developed clinical applications using the transmission of health data from bedside medical devices. Solutions include PowerChart, FetaLink, and transmission of health data over the interoprability bus among others.",
       "link": "",
       "highlights": [
         "Supported Bedside Medical Device Interface (BMDI) health data transmission to Millennium solutions in Direct Care",
