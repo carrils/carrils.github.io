@@ -89,11 +89,11 @@
       "position": "Systems Engineer II",
       "startDate": "Oct. 2018",
       "endDate": "Feb. 2021",
-      "summary": "Supported and developed clinical applications using the transmission of health data from bedside medical devices. Solutions include PowerChart, FetaLink, and transmission of health data over the interoprability bus among others.",
+      "summary": "Supported and developed clinical applications including PowerChart and FetaLink among others. Facilitated the transmission and reception of health data over the interoprability bus into Millennium (mysql database).",
       "link": "",
       "highlights": [
         "Supported Bedside Medical Device Interface (BMDI) health data transmission to Millennium solutions in Direct Care",
-        "Served in on-call rotation for tier 2 senior engineer support"
+        "Served in 24/7 on-call rotation for tier 2 software engineer support"
       ]
     }
   ],
