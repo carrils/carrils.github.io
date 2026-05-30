@@ -12,9 +12,10 @@ Read the paper CDS Connect is based on [here](https://pubmed.ncbi.nlm.nih.gov/22
 
 Tech stack
 ======
-CDS Connect was built from an OTS solution provided by Acquia that required building out. 
-A cloud-based LAMP stack that is preconfigured for Drupal development. 
-MITRE subcontracted [Acquia](https://www.acquia.com) to maintain the servers and we built out and administered the actual drupal website as an Acquia Cloud application.
+CDS Connect was built as an Acquia Cloud application using the [Acquia Cloud Platform](https://www.acquia.com/products/acquia-cloud-platform).
+Essentially it is a cloud-based LAMP stack that offers options for hosting Drupal Applications as websites.
+
+
 
 Project Contributions
 ======
