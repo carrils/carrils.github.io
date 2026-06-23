@@ -6,7 +6,7 @@ excerpt: "A command-line tool that compares the contents of MRFs and produces an
 collection: portfolio
 #author_profile: true
 ---
-MRF Comparison Tool was made for performing informal desk audits of the MRFs that insurers and hospitals were required to make publicly available from the two rules CMS made. I was asked to look into whether the prices in the files for charge items and services matched between the insurers and hospitals files. 
+MRF Comparison Tool was made for performing informal desk audits of the MRFs that insurers and hospitals were required to make publicly available from the two rules CMS made. I was tasked with looking at the prices for charge items/services in the MRFs to find out if price per item matched between the insurers and hospitals files. 
 
 This work supported CMS in their price transparency initivaitves for both [health insurers](https://www.cms.gov/priorities/key-initiatives/healthplan-price-transparency) and [hospitals](https://www.cms.gov/priorities/key-initiatives/hospital-price-transparency).
 
