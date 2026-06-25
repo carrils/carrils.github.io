@@ -107,7 +107,6 @@ lastly we need to loop through every employee in a department and, for each one:
             for sheet in writer.sheets:
                 worksheet = writer.sheets[sheet]
                 worksheet.autofit()
-
 ```
 
 This tool found use in the hands of a few group leaders and department managers that wanted a total set of opportunities for the person they were working with.
