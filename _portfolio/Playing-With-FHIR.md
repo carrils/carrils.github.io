@@ -35,7 +35,9 @@ Communication communication = (Communication) new Communication().setLanguage("e
 ```
 
 ### Customizing the patient with extensions
+
 Using the previously created patient:
+
 ```java
 
 // Add Race to fhir patient via an extension (StringType is just a FHIR String data type)
@@ -85,6 +87,7 @@ IGenericClient client = contextR4.newRestfulGenericClient(serverBase);
 // register the capturing interceptor for the generic client
 client.registerInterceptor(capturer);
 ```
+
 ### uploading a FHIR patient resource to a FHIR server with that client
 
 ```java
