@@ -19,5 +19,5 @@ At MITRE I served on the Public Health Systems Innovation Team while contributin
 
 If you would like to contact me please feel free to send me an email or reach out to me on LinkedIn!
 <div class="cv-download-links">
-  <a href="files/CV.pdf" class="btn btn--primary" download="CV_Sam_Carrillo_{{ 'now' | date: '%m-%d' }}.pdf">Download CV as PDF</a>
+  <a href="../files/Long-CV.pdf" class="btn btn--primary" download="CV_Sam_Carrillo_{{ 'now' | date: '%m-%d' }}.pdf">Download CV as PDF</a>
 </div>

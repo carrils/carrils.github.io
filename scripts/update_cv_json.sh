@@ -2,8 +2,9 @@
 
 # Script to update the CV JSON file from the markdown CV
 # Author: Yuan Chen
+# (Heavily modified by Sam Carrillo)
 
-echo "$(clear)"
+#echo "$(clear)"
 
 # Set the base directory to the repository root
 #BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -36,7 +37,9 @@ fi
 
 # Run the Python script to generate cv
 echo "Generating CV..."
-python3 "$PYTHON_SCRIPT" --output "$CV_JSON" --config "$CONFIG_FILE"
+#python3 "$PYTHON_SCRIPT" --output "$CV_JSON" --config "$CONFIG_FILE"
+echo "$(. .venv/bin/activate)"
+echo "$(python3 scripts/cv_markdown_to_json.py --output _data/cv.json --config _config.yml)"
 
 # Check if the conversion was successful
 #if [ $? -eq 0 ]; then

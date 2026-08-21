@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+# !/usr/bin/env python
 """
 Script to convert markdown CV to JSON format
 Author: Yuan Chen
@@ -206,9 +206,6 @@ def parse_work_experience(work_file):
             "link": link,
             "highlights": highlights,
         })
-
-
-
     return work_entries
 
 

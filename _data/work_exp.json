@@ -4,11 +4,12 @@
     "company": "MITRE | ASTP",
     "startDate": "Nov. 2024",
     "endDate": "Apr. 2025",
-    "summary": "Inferno is a ruby framework to test server-client conformance to FHIR messaging standards and Implementation Guides. My role for this project focused on being one of their primary developers, creating conformance test kits in Ruby.",
+    "summary": "Inferno is a ruby framework to test server-client conformance to FHIR messaging standards and Implementation Guides. My role for this project focused on being one of their testkit developers, creating conformance test kits in Ruby.",
     "link": "/project/ASTP-Inferno",
     "highlights": [
-      "Developed internal team tooling to assist in the automation of test kit creation",
-      "Contributed to the development of multiple test kits; Carin for blue button, Bulk data, US CDI"
+      "Developed and maintained the following: CARIN IG for Blue Button® Test Kit, SMART App Launch Test Kit, US Core Test Kit, Bulk Data Access Test Kit",
+      "Created internal team tooling to assist in the automation of updating test kits to meet new conformance standards.",
+      "Skills used: Ruby, HL7 FHIR, Data Interoperability, Agile, Stakeholder Engagement & Analysis, CI/CD "
     ]
   },
   {
@@ -20,7 +21,8 @@
     "link": "/project/CMS-HPT",
     "highlights": [
       "Developed core functionality on Hospital Price Transparency MRF validator, maintained its CMS github user site.",
-      "Data collection, visualization and transformation using Machine-Readable-Files (JSON, CSV, XML) to inform policy-making decisions for stakeholders"
+      "Data collection, visualization and transformation using Machine-Readable-Files (JSON, CSV, XML) to inform policy-making decisions for stakeholders",
+      "Skills/Tools used: Javascript, Python, Pandas, Data analysis and visualization, Agile, Stakeholder Engagement & Analysis, CI/CD"
     ]
   },
   {
@@ -32,7 +34,8 @@
     "link": "/project/ONC-PHFIC",
     "highlights": [
       "Created and demonstrated functional FHIR implementations of client and server software",
-      "Designed and conducted client/server testing between State and Local Health Departments"
+      "Facillitated client/server testing between State and Local Health Departments",
+      "Skills/Tools used: HL7 FHIR, EHR/EMR Development, Data Interoperability, Project Task Management, Stakeholder Engagement & Analysis, UML"
     ]
   },
   {
@@ -44,7 +47,8 @@
     "link": "/project/CMS-TiC",
     "highlights": [
       "Developed XML file validation in the MRF File Validator",
-      "Informed Sponsor inquiry by creating new tools to compare Hospital and Insurer MRFs regarding rule."
+      "Informed Sponsor inquiry by creating new tools to compare Hospital and Insurer MRFs regarding rule.",
+      "Skills/Tools used: Pandas, Javascript, Python, Agile, CI/CD, Stakeholder Engagement & Analysis, Schema Design"
     ]
   },
   {
@@ -52,11 +56,12 @@
     "company": "MITRE | AHRQ",
     "startDate": "Jun. 2021",
     "endDate": "Aug. 2024",
-    "summary": "Clinical Decision Support (CDS) Connect is a public platform for authoring and sharing interoperable CDS resources. I was a full stack developer, I helped develop and maintain the Artifact Repository as well as help administer the website in general.",
+    "summary": "Clinical Decision Support (CDS) Connect is a public platform for authoring and sharing interoperable CDS resources. I was a full stack developer, developing and maintaining the Artifact Repository portion of the website as well as helping to administer the website in general.",
     "link": "/project/AHRQ-CDS-Connect",
     "highlights": [
-      "Fullstack (LAMP) developer on Acquia Cloud",
-      "General website administration & technical support"
+      "Developed and maintained CDS Artifact Repository",
+      "General website administration & technical support",
+      "Skills/Tools used: Full-Stack Cloud Devops, HL7 FHIR, Health Systems Engineering, Agile, CI/CD, Stakeholder Engagement & Analysis"
     ]
   },
   {
@@ -64,11 +69,12 @@
     "company": "Oracle Health",
     "startDate": "Oct. 2018",
     "endDate": "Feb. 2021",
-    "summary": "Supported and developed clinical applications including PowerChart and FetaLink among others. Facilitated the transmission and reception of health data over the interoprability bus into Millennium (mysql database).",
+    "summary": "Supported and developed clinical health applications including PowerChart and FetaLink among others. Ensured the transmission of health data messages over the interoprability bus architecture to facilitate clinical care.",
     "link": "",
     "highlights": [
-      "Supported Bedside Medical Device Interface (BMDI) health data transmission to Millennium solutions in Direct Care",
-      "Served in 24/7 on-call rotation for tier 2 software engineer support"
+      "Developed Bedside Medical Device Interfaces (BMDI) and mapped health data transmission to Millennium CCL database.",
+      "Served in 24/7 on-call rotation for tier 2 software engineer support",
+      "Skills/Tools used: iCommand, Citrix, CCL, Java, SQL, HL7 V2"
     ]
   }
 ]
