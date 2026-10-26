@@ -60,6 +60,11 @@
             {% endfor %}
         </div>
         {% endif %}
+        <br>
+        <div class="cv-download-links">
+            <a href="../files/Long-CV.pdf" class="btn btn--primary"
+               download="CV_Sam_Carrillo_{{ 'now' | date: '%m-%d' }}.pdf">Download CV as PDF</a>
+        </div>
 
     {% if cv.basics.summary %}
     <!-- Profressional Summary -->

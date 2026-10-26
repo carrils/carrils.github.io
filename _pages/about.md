@@ -2,15 +2,12 @@
 permalink: /
 #title: "Title"
 author_profile: true
-redirect_from: 
-  - /about-me/
 ---
 
 Hi, I'm Sam.
 
-I am a computer programmer that develops health software to support both public and private healthcare initiatives.
-Creating and enabling technology to benefit humans is important to me, and I see health software and health IT as the best way to do that.
-Beyond researching and harnessing the most cutting edge technology to benefit health, it is the intersection of human health and computers that I am most passionate about. 
+I am a Software Engineer with a background in creating and enabling technology to benefit humans is important to me, and I believe that software development gives us a way to do that.
+Beyond researching state of the art technology to benefit health, the general intersection of human health and computers is something that motivates me deeply. 
 
 After getting my Bachelors in Computer Science, I went to work at Oracle Health when it was still called Cerner.
 I cut my teeth on health software there supporting and developing their EHR solutions and bedside medical device interfacing.

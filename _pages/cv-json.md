@@ -3,9 +3,10 @@
 layout: archive
 #title: "Curriculum vitae"
 permalink: cv/
-author_profile: false
+author_profile: true
 redirect_from:
   - /resume-json
+  - /about-me/
 ---
 
 {% include base_path %}
