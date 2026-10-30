@@ -17,6 +17,13 @@ They are created with the HAPI FHIR framework.
 HAPI FHIR is a complete implementation of the [HL7 FHIR](http://hl7.org/fhir/) standard for healthcare interoperability
 in Java.
 
+# FHIR Overview
+fhir is a <protocol that dictates how health information is to be transmitted between in a client server model>
+fhir works by <overview of fhir architecture> 
+
+to begin a java-based HAPI fhir project <describe initial project set up and tech you need> 
+you may use any of the examples below to build out the initial implementation of your FHIR application.
+
 # Examples
 
 ### Creating a FHIR patient

@@ -6,6 +6,19 @@ excerpt: "Running open source AI models on Apple silicon using CoreAI"
 collection: portfolio
 #author_profile: true
 ---
+# Using MLX-LM
+A few days after comitting the [Swift](#using-swift) section of this experiment, I found the Python package [mlx-lm](https://pypi.org/project/mlx-lm/) which provides a python package for generating text on Apple Silicon with MLX.
+mlx-lm allows running most open-weight llms on Hugging Face.
+
+I'm going to outline the steps I took to run Googles open-weight model my local environment which uses Homewbrew package manager and virtual python environments.
+
+You can install MLX-LM with:
+```commandline
+pip install mlx-lm
+```
+
+
+# Using Swift
 Prompt: 
 "Say Hello to the world."
 
