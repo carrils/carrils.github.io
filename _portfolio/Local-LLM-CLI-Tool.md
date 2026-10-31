@@ -7,16 +7,89 @@ collection: portfolio
 #author_profile: true
 ---
 # Using MLX-LM
-A few days after comitting the [Swift](#using-swift) section of this experiment, I found the Python package [mlx-lm](https://pypi.org/project/mlx-lm/) which provides a python package for generating text on Apple Silicon with MLX.
-mlx-lm allows running most open-weight llms on Hugging Face.
+A few days after comitting the [Swift](#using-swift) section of this experiment, I found [mlx-lm](https://pypi.org/project/mlx-lm/) which provides a python package for generating text and fine-tuning llm's on Apple Silicon with MLX.
+mlx-lm allows running most open-weight llms on Hugging Face, hosting them on their [models page](https://huggingface.co/mlx-community/models) within the MLX community on HF.
 
-I'm going to outline the steps I took to run Googles open-weight model my local environment which uses Homewbrew package manager and virtual python environments.
+I'm going to outline the steps I took to run Googles Gemma 4 model my local environment which uses Homewbrew package manager and virtual python environments.
 
 You can install MLX-LM with:
 ```commandline
 pip install mlx-lm
 ```
 
+From there I emulated the same structure and usecase as the swift cli tool and made a script that accepts a prompt as a variable from the command line, then prints the response:
+
+```python
+import sys
+from mlx_lm import generate, load
+
+repo_slug = "mlx-community/gemma-4-e2b-it-OptiQ-4bit-decision"
+model, tokenizer = load(repo_slug)
+
+# sys.argv[0] == this will always the filename (unused)
+# sys.argv[1] == prompt
+prompt = sys.argv[1]
+
+messages = [{"role": "user", "content": prompt}]
+prompt = tokenizer.apply_chat_template(
+    messages, add_generation_prompt=True,
+)
+text = generate(model, tokenizer, prompt=prompt, verbose=True)
+
+print(text)
+```
+## Usage
+To use the tool go to the directory it is located in and run
+```commandline
+python -m gemma-4-e2b-test "<prompt>"
+```
+It would also be possible to run this tool from any directory if you made a user binary pointed at the script or at a shell script that points to the python script. This would allow for a more diverse set of use cases.
+
+## Example output
+
+```commandline
+python -m gemma-4-e2b-test "hellooooo my ai friend how are ya"
+    	Fetching 13 files: 100%|███████████████████████████████████████████████████████████████████| 13/13 [01:53<00:00,  8.74s/it]
+	Download complete: : ██████████████████████████████████████████████████████████████████████████████████| 4.24GB, 22.2MB/s
+	Reconstruction complete: 100%|████████████████████████████████████████████████████████████████| 4.31GB / 4.31GB, 66.3MB/s
+	==========
+	<|channel>thought
+	Thinking Process:
+	
+	1.  **Analyze the input:** The user said "hellooooo my ai friend how are ya". This is a very casual, friendly, and informal greeting.
+	2.  **Determine the user's intent:** The user is initiating a friendly conversation and asking how the AI is doing.
+	3.  **Formulate a suitable response:**
+	    *   Match the tone (friendly, warm, casual).
+	    *   Answer the question (state that the AI is functioning well/great).
+	    *   Reciprocate the inquiry (ask the user how they are).
+	    *   Offer assistance (prompt the user to state their need).
+	4.  **Draft the response (Internal Monologue & Refinement):**
+	    *   *Initial thought:* I'm good, thanks. How are you?
+	    *   *Refinement (Adding personality/matching the enthusiasm):* Hello! I'm doing great, ready to chat. How about you?
+	5.  **Final Output Generation.** (This leads to the suggested friendly response.)<channel|>Hello there! I'm doing great, thanks for asking! 😊 I'm ready to chat or help you with anything you
+	==========
+	Prompt: 24 tokens, 17.989 tokens-per-sec
+	Generation: 256 tokens, 109.887 tokens-per-sec
+	Peak memory: 4.320 GB
+	<|channel>thought
+	Thinking Process:
+	
+	1.  **Analyze the input:** The user said "hellooooo my ai friend how are ya". This is a very casual, friendly, and informal greeting.
+	2.  **Determine the user's intent:** The user is initiating a friendly conversation and asking how the AI is doing.
+	3.  **Formulate a suitable response:**
+	    *   Match the tone (friendly, warm, casual).
+	    *   Answer the question (state that the AI is functioning well/great).
+	    *   Reciprocate the inquiry (ask the user how they are).
+	    *   Offer assistance (prompt the user to state their need).
+	4.  **Draft the response (Internal Monologue & Refinement):**
+	    *   *Initial thought:* I'm good, thanks. How are you?
+	    *   *Refinement (Adding personality/matching the enthusiasm):* Hello! I'm doing great, ready to chat. How about you?
+	5.  **Final Output Generation.** (This leads to the suggested friendly response.)<channel|>Hello there! I'm doing great, thanks for asking! 😊 I'm ready to chat or help you with anything you
+```
+The output shows the reasoning steps as well as the final generated response to my prompt:
+```commandline
+Hello there! I'm doing great, thanks for asking! 😊 I'm ready to chat or help you with anything you
+```
 
 # Using Swift
 Prompt: 
